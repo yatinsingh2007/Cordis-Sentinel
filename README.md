@@ -2,7 +2,7 @@
 
 **An agentic heart attack risk prediction pipeline — from raw clinical data to explainable, AI-reasoned risk reports.**
 
-> Status: 🚧 In Development — data cleaning & EDA phase
+> Status: 🚧 In Development — modeling phase
 
 ---
 
@@ -60,10 +60,10 @@ cordis-sentinel/
 │   ├── interim/           # cleaning checkpoints
 │   └── processed/         # final model-ready dataset
 ├── notebooks/
-│   ├── 01_data_inspection.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_eda.ipynb
-│   ├── 04_feature_engineering.ipynb
+│   ├── data_inspection.ipynb
+│   ├── data_cleaning.ipynb
+│   ├── exploratory_data_analysis.ipynb
+│   ├── feature_engineering.ipynb
 │   ├── 05_model_training.ipynb
 │   ├── 06_model_evaluation_shap.ipynb
 │   └── 07_agentic_pipeline.ipynb
@@ -87,10 +87,10 @@ cordis-sentinel/
 
 ## Roadmap
 
-- [ ] Data inspection & diagnostic report
-- [ ] Data cleaning pipeline
-- [ ] Exploratory data analysis
-- [ ] Feature engineering
+- [x] Data inspection & diagnostic report
+- [x] Data cleaning pipeline
+- [x] Exploratory data analysis
+- [x] Feature engineering
 - [ ] Baseline model training (Logistic Regression, Decision Tree)
 - [ ] SHAP-based explainability
 - [ ] Agentic reasoning layer (PER architecture)
