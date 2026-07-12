@@ -91,7 +91,7 @@ cordis-sentinel/
 - [x] Data cleaning pipeline
 - [x] Exploratory data analysis
 - [x] Feature engineering
-- [ ] Baseline model training (Logistic Regression, Decision Tree)
+- [x] Baseline model training (Logistic Regression, Decision Tree)
 - [ ] SHAP-based explainability
 - [ ] Agentic reasoning layer (PER architecture)
 - [ ] Streamlit demo app
