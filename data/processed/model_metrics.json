@@ -1,0 +1,18 @@
+{
+  "model_name": "Logistic Regression",
+  "test_size": 1400,
+  "metrics": {
+    "Accuracy": 0.7764,
+    "Precision": 0.7311,
+    "Recall": 0.7398,
+    "F1": 0.7354,
+    "ROC_AUC": 0.8608
+  },
+  "confusion_matrix": {
+    "TN": 652,
+    "FP": 160,
+    "FN": 153,
+    "TP": 435
+  },
+  "notes": "Evaluated on stratified 20% hold-out test set (1400 samples). SMOTE applied to training split only."
+}

@@ -20,8 +20,9 @@ langchain-groq>=0.1.0
 chromadb>=0.4.22
 sentence-transformers>=2.5.0
 
-# Serving (optional, later stage)
+# Serving
 streamlit>=1.31.0
+plotly>=5.18.0
 
 # Notebook environment
 jupyter>=1.0.0
